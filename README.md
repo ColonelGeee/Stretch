@@ -2,17 +2,17 @@
 This repository contains all files in order to perform my piece stretch
 
 
-##########
-MOTIVATION
-##########
+
+## MOTIVATION
+
 
 The motivation to write this piece, comes from experiments with alternative ways of interacting with software. In this case, I wanted to work with resistance between the performer and an object. The focus is on the physical work the performer must put into to deform the controller and to create the sound. 
 Since the controller is quite chaotic, the score must be seen more of an improvisational advice or roadmap, than an absolute path to follow. 
 
 
-##########
-CONTROLLER
-##########
+
+## CONTROLLER
+
 
 The building of the controller is not that demanding, but notice, that it takes some time. For this piece, you must build two of them. To build them, you need the following materials:
 
@@ -32,9 +32,9 @@ Apply for each controller one strip horizontally, and one strip vertically. To s
 Now you should have two controllers with each two rubber sensors connected to it.
 
 
-##############
-CIRCUIT + CODE
-##############
+
+## CIRCUIT + CODE
+
 
 For the circuit, you need the following materials:
 
@@ -70,9 +70,9 @@ void loop() {
 
 
 ```
-###################
-MAKING A CONNECTION
-###################
+
+## MAKING A CONNECTION
+
 
 The first step to rehearse the piece is to make a connection from the Arduino to SuperCollider. Both are communicating via serial port data, and you must set up the connection. With the command 
 ```supercollider	
