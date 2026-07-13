@@ -27,8 +27,12 @@ The building of the controller is not that demanding, but notice, that it takes 
 
 First, you mix two parts cornstarch with one part water. After mixing it together, you should get a white liquid, that starts to become hard when it is put under stress. You can check this step by trying to mix it quickly, if it forms to a lump, you have the right ratio. By letting it rest, it should flow back into a liquid form. 
 In the next step you fill the liquid in the balloon with a funnel. Be careful, it will take some time, since the liquid is not that fast and make sure to only add small amounts of liquid, otherwise the funnel could become blocked. Fill the balloon up to it extend and close it with a knot.
-Now you must cut the conductive rubber sheet into 4 pieces, I used 2 x 20 cm. After cutting, you need to wrap the ends of the rubber pieces over the paperclips, in a way, that the rubber stays inside of the paper clip. Now you have on each end one paperclip, onto which you can now solder the cables. As a last step, cover the paperclips and any open contacts with duct tape to prevent shortcuts. 
+Now you must cut the conductive rubber sheet into 4 pieces, I used 2 x 20 cm. After cutting, you need to wrap the ends of the rubber pieces over the paperclips, in a way, that the rubber stays inside of the paper clip. 
+![PaperClip](https://github.com/ColonelGeee/Stretch/blob/main/Controller_PaperClip.JPG)
+Now you have on each end one paperclip, onto which you can now solder the cables. As a last step, cover the paperclips and any open contacts with duct tape to prevent shortcuts. 
+![FinalStrip](https://github.com/ColonelGeee/Stretch/blob/main/Controller_FinalStrip.JPG)
 Apply for each controller one strip horizontally, and one strip vertically. To stick the rubber strips on the balloon, I used some duct tape. Make sure, that you also apply duct tape or any other non-conducting material between the rubber sheets, otherwise, they will not work properly. 
+![Final](https://github.com/ColonelGeee/Stretch/blob/main/Controller_Final.JPG)
 Now you should have two controllers with each two rubber sensors connected to it.
 
 
@@ -133,3 +137,4 @@ The score is more of a suggestion on how to play it. Since the controllers have 
 Each controller has three parameters: **long**, **short** and **press**. These parameters refer to where the rubber strips are placed. Long refers to the rubber strip, connected to the opening of the balloon. Short refers to the remaining rubber strip. Press means to place the controller on a table in front of you and press into it gently. 
 The stretching is represented in the score as an envelope. While performing, keep one ear on the sound, the descriptions underneath the timeline are hearable changes from fixed envelopes. These are acoustical triggers to move on in the score. 
 For the ending of the piece, the performer has to use two controllers at once. In order to play them simultaneously, take one into both hands and press with the palm of one hand into the second one. 
+[SCORE](Score_Stretch.pdf)
