@@ -98,7 +98,7 @@ CmdPeriod.doOnce({Tdef(\getData).stop;SerialPort.closeAll;});
 ## NOTES ON THE PIECE
 
 Since the rubber is dependent on environmental changes like the weather, you must measure the range of the four sensors. Check for the lowest values, which appear when you don’t stretch them, and for the highest values, which appear when you stretch them to an amount that the performer can easily reach while performing. 
-Exchange the values in the following code block:
+Exchange the values in the following code block under ~values[0] to ~values[3]:
 
 ```supercollider
 (
@@ -122,3 +122,11 @@ Tdef(\changeColors, {
 )
 ```
 Controller 1 sets the values for **blend** and **pitch**, controller 2 sets the values for **ampBass** and **phase**.
+All values have to be set in a way, that the controlled parameters have no effect on the sound, when the controller is not stretched. 
+
+## SCORE
+
+The score is more of a suggestion on how to play it. Since the controllers have a lot of chaos in them, the performer should be ready to improvise according to the score. Additionally, the code is already conducting the performer with fixed envelopes. 
+Each controller has three parameters: **long**, **short** and **press**. These parameters refer to where the rubber strips are placed. Long refers to the rubber strip, connected to the opening of the balloon. Short refers to the remaining rubber strip. Press means to place the controller on a table in front of you and press into it gently. 
+The stretching is represented in the score as an envelope. While performing, keep one ear on the sound, the descriptions underneath the timeline are hearable changes from fixed envelopes. These are acoustical triggers to move on in the score. 
+For the ending of the piece, the performer has to use two controllers at once. In order to play them simultaneously, take one into both hands and press with the palm of one hand into the second one. 
