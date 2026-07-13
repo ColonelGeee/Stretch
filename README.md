@@ -94,3 +94,31 @@ SerialPort.closeAll;
 CmdPeriod.doOnce({Tdef(\getData).stop;SerialPort.closeAll;});
 );
 ```
+
+## NOTES ON THE PIECE
+
+Since the rubber is dependent on environmental changes like the weather, you must measure the range of the four sensors. Check for the lowest values, which appear when you don’t stretch them, and for the highest values, which appear when you stretch them to an amount that the performer can easily reach while performing. 
+Exchange the values in the following code block:
+
+```supercollider
+(
+Tdef(\changeColors, {
+	loop{
+		~views.do{
+			arg view, index;
+			var grayVal, trig, freeze, rot, blend, pitch, ampBass, phase;
+			grayVal = ~values.collect({arg i; i.linlin(100, 300, 0, 1)});
+			blend = ~values[0].linlin(270, 320, 0, 1); //set the range of the sensors here
+			pitch = ~values[1].linlin(250, 300, 1, 2.5); //set the range of the sensors here
+			ampBass = ~values[2].linlin(210, 240, 0, 1); //set the range of the sensors here
+			phase = ~values[3].linlin(180, 220, 1, 2); //set the range of the sensors here
+			view.background_(Color.gray(grayVal[index]));
+			~synths.set(\blend, blend, \pitch, pitch, \ampBass, ampBass, \phase, phase);
+			//~synths.set(\pitch, pitch, \ampBass, ampBass, \phase, phase);
+		};
+		0.01.wait;
+	}
+}).play(AppClock);
+)
+```
+Controller 1 sets the values for *blend* and *pitch*, controller 2 sets the values for *ampBass* and *phase*.
