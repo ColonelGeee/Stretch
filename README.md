@@ -45,7 +45,7 @@ For the circuit, you need the following materials:
 
 Connect the +5V of the Arduino to the 20kΩ Resistor. Connect the resistor with one side of the rubber strip and the input of A0 on the Arduino. Connect the remaining side of the rubber strip with the ground of the Arduino. Repeat these steps for every rubber strip but connect them along the different inputs (A0 – A3). 
 After wiring everything, upload the code onto the Arduino.
-```arduino
+```cpp
 const int SIG_pins[4] = {A0, A1, A2, A3};
 
 void setup() {
