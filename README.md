@@ -121,4 +121,4 @@ Tdef(\changeColors, {
 }).play(AppClock);
 )
 ```
-Controller 1 sets the values for *blend* and *pitch*, controller 2 sets the values for *ampBass* and *phase*.
+Controller 1 sets the values for **blend** and **pitch**, controller 2 sets the values for **ampBass** and **phase**.
