@@ -79,7 +79,9 @@ The first step to rehearse the piece is to make a connection from the Arduino to
 SerialPort.listDevices;
 ```		
 You can check for all devices, that are connected to the computer, and it can look like this:
-		"/dev/cu.usbmodem11201"
+```supercollider
+"/dev/cu.usbmodem11201"
+```
 Troubleshooting: If the device doesn’t show up, make sure, that no other program is connected to the Arduino. If you still have the Arduino IDE open, close the program, unplug the Arduino, and connect it again. Now, SuperCollider should be able to find the Arduino with the previous command. This should work on MacOS and Windows. If you are using a linux device, you first must allow the connection to the Arduino via the Terminal. This is a safety mechanism on Linux devices, you find many helpfiles for this online.
 To connect to the Arduino, enter its name under YOUR_ARDUINO. 
 
